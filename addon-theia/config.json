@@ -1,0 +1,48 @@
+{
+  "name": "AddOn Theia Editor",
+  "version": "3.7",
+  "slug": "theia",
+  "description": "Browser-based theia editor for Home Assistant",
+  "url": "https://github.com/gandhimaulik/hassio-addons",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "homeassistant": "0.91.1",
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:8080]",
+  "ingress": true,
+  "panel_icon": "mdi:visual-studio-code",
+  "auth_api": true,
+  "homeassistant_api": true,
+  "boot": "auto",
+  "map": [
+    "backup:rw",
+    "config:rw",
+    "share:rw",
+    "ssl:rw"
+  ],
+  "ports": {
+    "8080/tcp": null
+  },
+  "options": {
+    "dirsfirst": false,
+    "enforce_basepath": false,
+    "ignore_pattern": [
+      "__pycache__"
+    ],
+    "ssh_keys": []
+  },
+  "schema": {
+    "dirsfirst": "bool",
+    "enforce_basepath": "bool",
+    "ignore_pattern": [
+      "str"
+    ],
+    "ssh_keys": ["str"]
+  },
+  "image": "homeassistant/{arch}-addon-theia"
+}
