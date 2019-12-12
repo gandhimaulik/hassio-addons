@@ -43,6 +43,5 @@
       "str"
     ],
     "ssh_keys": ["str"]
-  },
-  "image": "homeassistant/{arch}-addon-theia"
+  }
 }
