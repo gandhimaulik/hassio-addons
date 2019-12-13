@@ -1,6 +1,6 @@
 {
   "name": "AddOn Theia Editor",
-  "version": "3.7",
+  "version": "0.1",
   "slug": "theia",
   "description": "Browser-based theia editor for Home Assistant",
   "url": "https://github.com/gandhimaulik/hassio-addons",
