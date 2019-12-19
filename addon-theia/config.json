@@ -5,7 +5,7 @@
   "description": "Browser-based theia editor for Home Assistant",
   "url": "https://github.com/gandhimaulik/hassio-addons",
   "arch": [
-    "armhf"
+    "armv7"
   ],
   "homeassistant": "0.91.1",
   "startup": "application",
