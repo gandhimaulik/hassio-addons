@@ -1,15 +1,11 @@
 {
   "name": "AddOn Theia Editor",
-  "version": "0.1",
+  "version": "0.1.1",
   "slug": "theia",
   "description": "Browser-based theia editor for Home Assistant",
   "url": "https://github.com/gandhimaulik/hassio-addons",
   "arch": [
-    "armhf",
-    "armv7",
-    "aarch64",
-    "amd64",
-    "i386"
+    "armhf"
   ],
   "homeassistant": "0.91.1",
   "startup": "application",
@@ -18,7 +14,7 @@
   "panel_icon": "mdi:visual-studio-code",
   "auth_api": true,
   "homeassistant_api": true,
-  "boot": "auto",
+  "boot": "application",
   "map": [
     "backup:rw",
     "config:rw",
